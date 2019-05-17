@@ -11,6 +11,7 @@ matrix:
         - os: osx
           language: generic
         - os: windows
+          language: generic
 
 # command to install dependencies
 install:
