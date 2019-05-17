@@ -3,6 +3,14 @@
 language: python
 python:
   - "3.6"
+env: TOXENV=py36
+
+matrix:
+    include:
+        - os: linux
+        - os: osx
+          language: generic
+        - os: windows
 
 # command to install dependencies
 install:
